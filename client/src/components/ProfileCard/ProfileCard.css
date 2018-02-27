@@ -1,0 +1,22 @@
+.banner-list {
+    height: 200px;
+    width: 100%;
+}
+
+.avatar-list {
+float: left;
+height: 45px;
+}
+
+.username-list {
+    position: relative;
+    top: -30px;
+    margin-left: 30px;
+    float: left;
+
+}
+
+button[data-class="Profile-button"] {
+    margin-right: 5px !important;
+    float: right;
+}

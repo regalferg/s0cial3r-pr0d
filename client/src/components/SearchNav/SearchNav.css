@@ -1,0 +1,228 @@
+#search-nav {
+    position: fixed;
+    top: 0px;
+    margin: 0 !important;
+    background-color:	#6441a5;
+    height: 62px;
+    z-index: 10;
+    background-image: url("/img/gplay.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+#profile-logo {
+    position: fixed;
+    left: 20px;
+    font-family: 'Audiowide', cursive;
+    font-size: 60px;
+    color: white;
+    text-shadow: .05em .05em .1em black;
+    margin: 0;
+    padding: 0;
+    margin-left: 0px;
+}
+
+#nav-mobile {
+    display: none;
+}
+
+#search-button {
+    height: 45px;
+    font-size: 15px;
+    background-color: #4F4F4F;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 0;
+    width: 14%;
+}
+
+#search-button:hover {
+    background-color: #424242;
+}
+
+.clickable-li {
+    cursor: pointer;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+li:hover {
+    background-color: #4A307A;
+    background-image: url("/img/gplay.png");
+}
+
+li:active {
+    background-color: #4A307A;
+    background-image: url("/img/gplay.png");
+}
+
+li:visited {
+    background-color: #4A307A;
+    background-image: url("/img/gplay.png");
+}
+
+#select-wrapper {
+    float: left;
+    width: 20%;
+}
+#select-wrapper div {
+    width: 100%;
+    margin-top: 3px;
+    color: white;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 0;
+}
+
+#search-input {
+    float: left;
+    width: 50%;
+    background-color: #E8E8E8;
+    border-radius: 5px;
+    margin-top: 4px;
+    margin-right: 0px;
+    padding-left: 10px;
+}
+
+#post-bar-col {
+    width: 55%;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 1275px) {
+    #nav-mobile {
+        display: block;
+    }
+    #nav-dashboard {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    #nav-dashboard > li {
+        font-size: 16px;
+    }
+
+    #post-bar-col {
+        width: 45%;
+    }
+
+    #search-button {
+        width: 20%;
+    }
+
+    #select-wrapper {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 815px) {
+
+    li:hover {
+        background-color: #424242;
+    }
+    
+    li:active {
+        background-color: #424242;
+    }
+    
+    li:visited {
+        background-color: #424242;
+    }
+
+    #clickable-li > Icon:hover {
+        background-color: #424242;
+    }
+
+    #clickable-li > Icon:visited {
+        background-color: #424242;
+    }
+
+    #clickable-li > Icon:active{
+        background-color: #424242;
+    }
+
+    #post-bar-col {
+        width: 60%;
+    }
+
+    #search-input {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #post-bar-col {
+        width: 55%;
+    }
+ 
+    #search-button {
+        width: 18%;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    #profile-logo {
+        display: none;
+    }
+    #search-input {
+        margin-left: 0;
+    }
+    #post-bar-col {
+        margin-left: 0;
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 587px) {
+    #profile-logo {
+        display: none;
+    }
+
+    #post-bar-col {
+        width: 100%;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+        margin-top: 0;
+    }
+
+    #search-nav {
+        height: 50px;
+    }
+
+    #search-input {
+        width: 45%;
+    }
+    
+    #search-button {
+        font-size: 13px;
+    }
+
+    #nav-mobile {
+        background-color: #4F4F4F;
+        width: 100%;
+        margin: 0 auto;
+        height: 45px;
+        padding-top: 0px;
+    }
+
+    .clickable-li {
+        height: 45px;
+        padding-bottom: 15px;
+        padding-right: 9%;
+    }
+
+    .clickable-li:first-child {
+        padding-left: 20%;
+    }
+
+    .clickable-li:last-child {
+        padding-right: 20%;
+    }
+    .main-chat-links {
+        margin-bottom: 5px;
+    }
+}

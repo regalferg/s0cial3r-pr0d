@@ -1,0 +1,16 @@
+.btn, .btn:hover { 
+    background-color: #6441a5;
+    color:white;
+}
+.valign-wrapper{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.center-align{
+  width: 100%;
+}
+
+div .modal {
+  border-radius: 15px;
+}
+

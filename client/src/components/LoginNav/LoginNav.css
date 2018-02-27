@@ -1,0 +1,51 @@
+#login-nav {
+    position: fixed;
+    top: 0px;
+    margin: 0 !important;
+    background-color:	#6441a5;
+    height: 62px;
+    z-index: 10;
+    background-image: url("/img/gplay.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+#login-logo {
+    position: fixed;
+    left: 20px;
+    font-family: 'Audiowide', cursive;
+    font-size: 60px;
+    color: white;
+    text-shadow: .05em .05em .1em black;
+    margin: 0;
+    padding: 0;
+    margin-left: 0px;
+}
+
+#search-button {
+    height: 45px;
+    background-color: #4F4F4F;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    padding: 0;
+    width: 14%;
+}
+
+.main-chat-link {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 587px) {
+    .main-chat-link {
+        font-size: 14px;
+    }
+
+    #login-logo {
+        font-size: 45px;
+    }
+}

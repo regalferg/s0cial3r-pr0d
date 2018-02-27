@@ -1,0 +1,11 @@
+#profile-nav {
+    position: fixed;
+    top: 95px;
+    margin: 0 !important;
+    background-color:	#6441a5;
+    height: 62px;
+    z-index: 10;
+    background-image: url("/img/gplay.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}

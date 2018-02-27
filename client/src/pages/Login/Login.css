@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+#main-page-title {
+    font-family: 'Audiowide', cursive;
+    font-size: 9vw;
+    color: white;
+    text-shadow: .05em .05em .1em black;
+}
+
+.welcomeMessage {
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+    text-shadow: .05em .05em .1em black;
+    font-size: 4.2rem;
+}
+#login-card {
+    position: relative;
+    top: 120px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.00);
+    border: 0;
+    border-style: 0;
+    border-color: none;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#main-page-container {
+	width: 100%;
+	height: 100vh;
+	padding: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: -100;
+}
+
+#main-page-content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh
+}
+
+.fullscreen-bg_video {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: -100;
+}
+
+#o {
+    color: 	#6441a5;
+    text-shadow: .05em .05em .1em white;
+}
+
+#signin {
+    text-align: left;
+}
+
+#left-bar-main, #right-bar-main {
+    height: 100vh
+}
+
+#left-bar-main {
+    background: linear-gradient(to right, rgba(0,0,0,0.75), rgba(0,0,0,0.4));
+}
+
+#right-bar-main {
+    background: linear-gradient(to left, rgba(0,0,0,0.75), rgba(0,0,0,0.4));
+}
+
+#email, #password {
+    color: white;
+}
+
+#sign-in-button {
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: #6441a5;
+}
+
+#sign-in-button:hover {
+    background-color: #7C50CC;
+}
+@media only screen and (min-width: 1050px) and (max-width: 1375px) and (orientation: landscape) {
+
+    #sign-in-button {
+        height: 50px;
+        font-size: 25px;
+    }
+
+    #main-page-title {
+        font-size: 12vw;
+        margin-top: 0;
+    }
+    #login-card {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1050px) and (orientation: landscape) {
+
+    #sign-in-button {
+        height: 50px;
+    }
+
+    #main-page-title {
+        font-size: 60px;
+        margin-top: 0;
+    }
+
+    .welcomeMessage {
+        font-size: 20px;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1050px) and (orientation: portrait) {
+
+    #main-page-title {
+        font-size: 18vw;
+        margin-top: 0;
+    }
+    #login-card {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 750) and (orientation: landscape) {
+    #main-page-title {
+        font-size: 12px;
+        margin-top: 0;
+    }
+    #login-card {
+        margin-top: 0;
+    }
+    .welcomeMessage {
+        font-size: 40px !important;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 587px) {
+    .welcomeMessage {
+        font-size: 35px;
+    }
+
+    #main-page-title {
+        margin-left: 0;
+        font-size: 60px;
+    }
+}

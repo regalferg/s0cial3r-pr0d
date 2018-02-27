@@ -1,0 +1,9 @@
+.profile-list-container {
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-height: 100vh;
+    overflow-y: scroll;
+    padding-top: 100px;
+}
